@@ -1,0 +1,12 @@
+Group members:
+	Yu Tong	444098
+	Sa Wang	442817
+
+Link:
+	http://52.88.165.44/~lareinatong/main_.php
+
+Creative part:
+
+1. We add in the website that users could see the amount of comments.
+2. We also add the date function, so that users could see the date they upload their story and let users know which comment or story is the newest.
+3. We add the function that stories and Comments are listed by numbers.
