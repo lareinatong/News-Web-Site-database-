@@ -56,6 +56,9 @@
 		echo "<td>\r\n";
                 echo "<form action=\"main_.php\" method=\"post\">\r\n";
                 echo "<input type=\"submit\" value=\"Log Out\" />\r\n";
+                if($_SESSION['token'] !== $_POST['token']){
+                die("\n Request forgery detected");
+                }
                 echo "</form>\r\n";}
 		?>
 		</td>
